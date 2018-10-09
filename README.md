@@ -162,6 +162,11 @@ S3의 `BucketName`은 기존에 사용하고 있는 이름이면 안 되는 경�
 $ sls deploy
 ```
 
+## 로그 확인 하기
+```bash
+$ sls logs -f <function_name> --tail
+```
+
 ## 참고
 * [Serverless File Uploads](https://www.netlify.com/blog/2016/11/17/serverless-file-uploads/)
 * [vue-s3-dropzone](https://github.com/kfei/vue-s3-dropzone)
