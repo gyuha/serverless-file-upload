@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <title>A File Upload Demo</title>
+  <title>파일 업로드 데모</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css">
   <style>
     html, body {
       height: 100%;
       margin: 0;
     }
     body {
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'Nanum Gothic', Helvetica, Arial, sans-serif;
     }
     .aligner {
       height: 100%;
@@ -29,13 +30,16 @@
       justify-content: center;
       border: dotted #777;
     }
+    #drop:hover {
+      background-color: #fff;
+    }
   </style>
 </head>
 <body>
   <div class="aligner">
-    <div id="drop">Drop files here.</div>
+    <div id="drop">파일을 여기로 드래그</div>
     <div>
-      <h1>Uploaded Files:</h1>
+      <h1>업로드 된 파일:</h1>
       <ul id="list">
       </ul>
     </div>

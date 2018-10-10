@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "sls offline start",
+    "deploy": "sls deploy"
+  },
   "dependencies": {
     "aws-sdk": "^2.330.0",
     "serverless-offline": "^3.27.0"
